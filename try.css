@@ -1,38 +1,43 @@
 h1
 {
-
-	color: blue;
+	color: white;
 }
 div
 {
-	border: 3px solid red;
+	/* border: 3px solid red; */
 	padding: 13px auto;
 
 }
 button:hover
 {
-	background-color: black;
-	color: green;
+	cursor: pointer;
 }
-a:hover
+/* a:hover
 {
 	background-color:black;
 	color: blue;
-}
-a{
-	color: red;
-}
+} */
+
 img{
 	
-	width: 75px;
-	height: 75px;
+	width: 600px;
+	height: 350px;
 	position: relative;
 
 }
-img:hover{
-	transform: scale(3);
-}
 	
+.link{
+	text-decoration: solid;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	width:220px;
+	height: 40px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
 
 h2{
 	color: orange;
@@ -43,16 +48,35 @@ form{
 p{
 	color: orange;
 }
-#horzNav:hover
+/* #horzNav:hover
 {
 	display: inline block;
 	background-color: black;
-	color:  blue;
+	color:  blue; */
+/* } */
+
+.op{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.op-desc{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+}
+.op-desc > p{
+	font-size: 25px;
+	color: 	white;
 }
 body
 {
-	background-image: url(https://2.bp.blogspot.com/-VqhSAIzVi1o/W8TZXaDtoQI/AAAAAAAAEf0/YNp9hkm9WDwCpBVETyWFUpYYVIiitREbgCLcBGAs/s1600/1535348797088.jpg);
-    background-position: fixed;
+	background-color: black;
+	/* background-image: url(https://2.bp.blogspot.com/-VqhSAIzVi1o/W8TZXaDtoQI/AAAAAAAAEf0/YNp9hkm9WDwCpBVETyWFUpYYVIiitREbgCLcBGAs/s1600/1535348797088.jpg); */
+	background-position: fixed;
+	background-size: cover; 
 }
 ul
 {
@@ -99,10 +123,10 @@ li.contacts{
 	display: block;
 	text-align: left;
 }
-.dropdown-content a:hover{
+/* .dropdown-content a:hover{
 	background-color: red;
 	color: blue;
-}
+} */
 .dropdown:hover .dropdown-content  {
 	display: block;
 }
@@ -110,4 +134,10 @@ li.contacts{
 {
 	background-color: red;
 	display: block;
+}
+
+.query{
+	/* border: 1px solid white; */
+	margin:50px ;
+	/* display: flex; */
 }
