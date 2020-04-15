@@ -1,0 +1,113 @@
+h1
+{
+
+	color: blue;
+}
+div
+{
+	border: 3px solid red;
+	padding: 13px auto;
+
+}
+button:hover
+{
+	background-color: black;
+	color: green;
+}
+a:hover
+{
+	background-color:black;
+	color: blue;
+}
+a{
+	color: red;
+}
+img{
+	
+	width: 75px;
+	height: 75px;
+	position: relative;
+
+}
+img:hover{
+	transform: scale(3);
+}
+	
+
+h2{
+	color: orange;
+}
+form{
+	color: orange;
+}
+p{
+	color: orange;
+}
+#horzNav:hover
+{
+	display: inline block;
+	background-color: black;
+	color:  blue;
+}
+body
+{
+	background-image: url(https://2.bp.blogspot.com/-VqhSAIzVi1o/W8TZXaDtoQI/AAAAAAAAEf0/YNp9hkm9WDwCpBVETyWFUpYYVIiitREbgCLcBGAs/s1600/1535348797088.jpg);
+    background-position: fixed;
+}
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:black;
+}
+li
+{
+	float: left;
+}
+li a, .dropbutton{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbutton {
+	background-color: red;
+}
+li.dropdown{
+	display: inline-block;
+}
+li.contacts{
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color:black;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px  rgba(0,0,0,0.2);
+	z-index: 1;
+	overflow: scroll;
+	height: 500px;
+}
+.dropdown-content a{
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover{
+	background-color: red;
+	color: blue;
+}
+.dropdown:hover .dropdown-content  {
+	display: block;
+}
+.contacts:hover
+{
+	background-color: red;
+	display: block;
+}
